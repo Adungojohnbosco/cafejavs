@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_menu24"
+            android:title="MENU" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_baseline_featured_list_24"
+            android:title="FEATURED PRODUCTS" />
+        <item
+            android:id="@+id/nav_deals"
+            android:icon="@drawable/ic_deals_24"
+            android:title="DEALS" />
+        <item
+            android:id="@+id/nav_track_order"
+            android:icon="@drawable/ic_track_order_24"
+            android:title="TRACK ORDER" />
+        <item
+            android:id="@+id/nav_e_gift_card"
+            android:icon="@drawable/ic_baseline_e_gift_24"
+            android:title="E GIFT CARD" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_baseline_phone_about_us_24"
+            android:title="ABOUT US"/>
+    </group>
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="MORE"
+    android:id="@+id/nav_more"
+    android:icon="@drawable/ic_baseline_more_24"/>
+    <item
+        android:id="@+id/nav_give_feed_back"
+        android:icon="@drawable/ic_baseline_feedback_24"
+        android:title="GIVE FEED BACK"/>
+        <item
+            android:title="LOGIN"
+            android:icon="@drawable/ic_baseline_login_24"
+            android:id="@+id/nav_login"/>
+</menu>

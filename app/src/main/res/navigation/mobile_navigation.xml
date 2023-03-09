@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.johnbosco.cafejavas.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.johnbosco.cafejavas.ui.gallery.GalleryFragment"
+        android:label="MENU"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.johnbosco.cafejavas.ui.slideshow.SlideshowFragment"
+        android:label="FEATURED PRODUCTS"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_about_us"
+        android:name="com.johnbosco.cafejavas.about_us"
+        android:label="ABOUT US"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/nav_deals"
+        android:name="com.johnbosco.cafejavas.deals"
+        android:label="DEALS"
+        tools:layout="@layout/fragment_deals" />
+    <fragment
+        android:id="@+id/nav_e_gift_card"
+        android:name="com.johnbosco.cafejavas.e_gift_card"
+        android:label="E GIFT CARD"
+        tools:layout="@layout/fragment_e_gift_card" />
+    <fragment
+        android:id="@+id/nav_track_order"
+        android:name="com.johnbosco.cafejavas.track_order"
+        android:label="TRACK ORDER"
+        tools:layout="@layout/fragment_track_order" />
+    <fragment
+        android:id="@+id/nav_give_feed_back"
+        android:name="com.johnbosco.cafejavas.ui.give_feed_back.give_feed_back"
+        android:label="GIVE FEED BACK"
+        tools:layout="@layout/fragment_give_feed_back" />
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.johnbosco.cafejavas.ui.login.login"
+        android:label="LOGIN"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/nav_more"
+        android:name="com.johnbosco.cafejavas.ui.more.more"
+        android:label="MORE"
+        tools:layout="@layout/fragment_more" />
+</navigation>
